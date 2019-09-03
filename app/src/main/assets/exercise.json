@@ -1,0 +1,1019 @@
+{
+	"Exercise":
+	[
+	 {
+	   "Description": "Gym Activities",
+	   "a": "125-pound person",
+	   "b": "155-pound person",
+	   "c": "185-pound person"
+	 },
+	 {
+	   "Description": "Weight Lifting: general",
+	   "a": "90",
+	   "b": "112",
+	   "c": "133"
+	 },
+	 {
+	   "Description": "Aerobics: water",
+	   "a": "120",
+	   "b": "149",
+	   "c": "178"
+	 },
+	 {
+	   "Description": "Stretching, Hatha Yoga",
+	   "a": "120",
+	   "b": "149",
+	   "c": "178"
+	 },
+	 {
+	   "Description": "Calisthenics: moderate",
+	   "a": "135",
+	   "b": "167",
+	   "c": "200"
+	 },
+	 {
+	   "Description": "Riders: general",
+	   "a": "150",
+	   "b": "186",
+	   "c": "222"
+	 },
+	 {
+	   "Description": "Aerobics: low impact",
+	   "a": "165",
+	   "b": "205",
+	   "c": "244"
+	 },
+	 {
+	   "Description": "Stair Step Machine: general",
+	   "a": "180",
+	   "b": "223",
+	   "c": "266"
+	 },
+	 {
+	   "Description": "Teaching aerobics",
+	   "a": "180",
+	   "b": "223",
+	   "c": "266"
+	 },
+	 {
+	   "Description": "Weight Lifting: vigorous",
+	   "a": "180",
+	   "b": "223",
+	   "c": "266"
+	 },
+	 {
+	   "Description": "Aerobics, Step: low impact",
+	   "a": "210",
+	   "b": "260",
+	   "c": "311"
+	 },
+	 {
+	   "Description": "Aerobics: high impact",
+	   "a": "210",
+	   "b": "260",
+	   "c": "311"
+	 },
+	 {
+	   "Description": "Bicycling, Stationary: moderate",
+	   "a": "210",
+	   "b": "260",
+	   "c": "311"
+	 },
+	 {
+	   "Description": "Rowing, Stationary: moderate",
+	   "a": "210",
+	   "b": "260",
+	   "c": "311"
+	 },
+	 {
+	   "Description": "Calisthenics: vigorous",
+	   "a": "240",
+	   "b": "298",
+	   "c": "355"
+	 },
+	 {
+	   "Description": "Circuit Training: general",
+	   "a": "240",
+	   "b": "298",
+	   "c": "355"
+	 },
+	 {
+	   "Description": "Rowing, Stationary: vigorous",
+	   "a": "255",
+	   "b": "316",
+	   "c": "377"
+	 },
+	 {
+	   "Description": "Elliptical Trainer: general",
+	   "a": "270",
+	   "b": "335",
+	   "c": "400"
+	 },
+	 {
+	   "Description": "Ski Machine: general",
+	   "a": "285",
+	   "b": "353",
+	   "c": "422"
+	 },
+	 {
+	   "Description": "Aerobics, Step: high impact",
+	   "a": "300",
+	   "b": "372",
+	   "c": "444"
+	 },
+	 {
+	   "Description": "Bicycling, Stationary: vigorous",
+	   "a": "315",
+	   "b": "391",
+	   "c": "466"
+	 },
+	 {
+	   "Description": "",
+	   "a": "",
+	   "b": "",
+	   "c": ""
+	 },
+	 {
+	   "Description": "Training and Sport Activities",
+	   "a": "",
+	   "b": "",
+	   "c": ""
+	 },
+	 {
+	   "Description": "Billiards",
+	   "a": "75",
+	   "b": "93",
+	   "c": "111"
+	 },
+	 {
+	   "Description": "Bowling",
+	   "a": "90",
+	   "b": "112",
+	   "c": "133"
+	 },
+	 {
+	   "Description": "Dancing: slow, waltz, foxtrot",
+	   "a": "90",
+	   "b": "112",
+	   "c": "133"
+	 },
+	 {
+	   "Description": "Frisbee",
+	   "a": "90",
+	   "b": "112",
+	   "c": "133"
+	 },
+	 {
+	   "Description": "Volleyball: non-competitive, general play",
+	   "a": "90",
+	   "b": "112",
+	   "c": "133"
+	 },
+	 {
+	   "Description": "Water Volleyball",
+	   "a": "90",
+	   "b": "112",
+	   "c": "133"
+	 },
+	 {
+	   "Description": "Archery: non-hunting",
+	   "a": "105",
+	   "b": "130",
+	   "c": "155"
+	 },
+	 {
+	   "Description": "Golf: using cart",
+	   "a": "105",
+	   "b": "130",
+	   "c": "155"
+	 },
+	 {
+	   "Description": "Hang Gliding",
+	   "a": "105",
+	   "b": "130",
+	   "c": "155"
+	 },
+	 {
+	   "Description": "Curling",
+	   "a": "120",
+	   "b": "149",
+	   "c": "178"
+	 },
+	 {
+	   "Description": "Gymnastics: general",
+	   "a": "120",
+	   "b": "149",
+	   "c": "178"
+	 },
+	 {
+	   "Description": "Horseback Riding: general",
+	   "a": "120",
+	   "b": "149",
+	   "c": "178"
+	 },
+	 {
+	   "Description": "Tai Chi",
+	   "a": "120",
+	   "b": "149",
+	   "c": "178"
+	 },
+	 {
+	   "Description": "Volleyball: competitive, gymnasium play",
+	   "a": "120",
+	   "b": "149",
+	   "c": "178"
+	 },
+	 {
+	   "Description": "Walking: 3.5 mph (17 min/mi)",
+	   "a": "120",
+	   "b": "149",
+	   "c": "178"
+	 },
+	 {
+	   "Description": "Badminton: general",
+	   "a": "135",
+	   "b": "167",
+	   "c": "200"
+	 },
+	 {
+	   "Description": "Walking: 4 mph (15 min/mi)",
+	   "a": "135",
+	   "b": "167",
+	   "c": "200"
+	 },
+	 {
+	   "Description": "Kayaking",
+	   "a": "150",
+	   "b": "186",
+	   "c": "222"
+	 },
+	 {
+	   "Description": "Skateboarding",
+	   "a": "150",
+	   "b": "186",
+	   "c": "222"
+	 },
+	 {
+	   "Description": "Snorkeling",
+	   "a": "150",
+	   "b": "186",
+	   "c": "222"
+	 },
+	 {
+	   "Description": "Softball: general play",
+	   "a": "150",
+	   "b": "186",
+	   "c": "222"
+	 },
+	 {
+	   "Description": "Walking: 4.5 mph (13 min/mi)",
+	   "a": "150",
+	   "b": "186",
+	   "c": "222"
+	 },
+	 {
+	   "Description": "Whitewater: rafting, kayaking",
+	   "a": "150",
+	   "b": "186",
+	   "c": "222"
+	 },
+	 {
+	   "Description": "Dancing: disco, ballroom, square",
+	   "a": "165",
+	   "b": "205",
+	   "c": "244"
+	 },
+	 {
+	   "Description": "Golf: carrying clubs",
+	   "a": "165",
+	   "b": "205",
+	   "c": "244"
+	 },
+	 {
+	   "Description": "Dancing: Fast, ballet, twist",
+	   "a": "180",
+	   "b": "223",
+	   "c": "266"
+	 },
+	 {
+	   "Description": "Fencing",
+	   "a": "180",
+	   "b": "223",
+	   "c": "266"
+	 },
+	 {
+	   "Description": "Hiking: cross-country",
+	   "a": "180",
+	   "b": "223",
+	   "c": "266"
+	 },
+	 {
+	   "Description": "Skiing: downhill",
+	   "a": "180",
+	   "b": "223",
+	   "c": "266"
+	 },
+	 {
+	   "Description": "Swimming: general",
+	   "a": "180",
+	   "b": "223",
+	   "c": "266"
+	 },
+	 {
+	   "Description": "Walk/Jog: jog <10 min.",
+	   "a": "180",
+	   "b": "223",
+	   "c": "266"
+	 },
+	 {
+	   "Description": "Water Skiing",
+	   "a": "180",
+	   "b": "223",
+	   "c": "266"
+	 },
+	 {
+	   "Description": "Wrestling",
+	   "a": "180",
+	   "b": "223",
+	   "c": "266"
+	 },
+	 {
+	   "Description": "Basketball: wheelchair",
+	   "a": "195",
+	   "b": "242",
+	   "c": "289"
+	 },
+	 {
+	   "Description": "Race Walking",
+	   "a": "195",
+	   "b": "242",
+	   "c": "289"
+	 },
+	 {
+	   "Description": "Ice Skating: general",
+	   "a": "210",
+	   "b": "260",
+	   "c": "311"
+	 },
+	 {
+	   "Description": "Racquetball: casual, general",
+	   "a": "210",
+	   "b": "260",
+	   "c": "311"
+	 },
+	 {
+	   "Description": "Rollerblade Skating",
+	   "a": "210",
+	   "b": "260",
+	   "c": "311"
+	 },
+	 {
+	   "Description": "Scuba or skin diving",
+	   "a": "210",
+	   "b": "260",
+	   "c": "311"
+	 },
+	 {
+	   "Description": "Sledding, luge, toboggan",
+	   "a": "210",
+	   "b": "260",
+	   "c": "311"
+	 },
+	 {
+	   "Description": "Soccer: general",
+	   "a": "210",
+	   "b": "260",
+	   "c": "311"
+	 },
+	 {
+	   "Description": "Tennis: general",
+	   "a": "210",
+	   "b": "260",
+	   "c": "311"
+	 },
+	 {
+	   "Description": "Basketball: playing a game",
+	   "a": "240",
+	   "b": "298",
+	   "c": "355"
+	 },
+	 {
+	   "Description": "Bicycling: 12-13.9 mph",
+	   "a": "240",
+	   "b": "298",
+	   "c": "355"
+	 },
+	 {
+	   "Description": "Football: touch, flag, general",
+	   "a": "240",
+	   "b": "298",
+	   "c": "355"
+	 },
+	 {
+	   "Description": "Hockey: field & ice",
+	   "a": "240",
+	   "b": "298",
+	   "c": "355"
+	 },
+	 {
+	   "Description": "Rock Climbing: rappelling",
+	   "a": "240",
+	   "b": "298",
+	   "c": "355"
+	 },
+	 {
+	   "Description": "Running: 5 mph (12 min/mile)",
+	   "a": "240",
+	   "b": "298",
+	   "c": "355"
+	 },
+	 {
+	   "Description": "Running: pushing wheelchair, marathon wheeling",
+	   "a": "240",
+	   "b": "298",
+	   "c": "355"
+	 },
+	 {
+	   "Description": "Skiing: cross-country",
+	   "a": "240",
+	   "b": "298",
+	   "c": "355"
+	 },
+	 {
+	   "Description": "Snow Shoeing",
+	   "a": "240",
+	   "b": "298",
+	   "c": "355"
+	 },
+	 {
+	   "Description": "Swimming: backstroke",
+	   "a": "240",
+	   "b": "298",
+	   "c": "355"
+	 },
+	 {
+	   "Description": "Volleyball: beach",
+	   "a": "240",
+	   "b": "298",
+	   "c": "355"
+	 },
+	 {
+	   "Description": "Bicycling: BMX or mountain",
+	   "a": "255",
+	   "b": "316",
+	   "c": "377"
+	 },
+	 {
+	   "Description": "Boxing: sparring",
+	   "a": "270",
+	   "b": "335",
+	   "c": "400"
+	 },
+	 {
+	   "Description": "Football: competitive",
+	   "a": "270",
+	   "b": "335",
+	   "c": "400"
+	 },
+	 {
+	   "Description": "Orienteering",
+	   "a": "270",
+	   "b": "335",
+	   "c": "400"
+	 },
+	 {
+	   "Description": "Running: 5.2 mph (11.5 min/mile)",
+	   "a": "270",
+	   "b": "335",
+	   "c": "400"
+	 },
+	 {
+	   "Description": "Running: cross-country",
+	   "a": "270",
+	   "b": "335",
+	   "c": "400"
+	 },
+	 {
+	   "Description": "Bicycling: 14-15.9 mph",
+	   "a": "300",
+	   "b": "372",
+	   "c": "444"
+	 },
+	 {
+	   "Description": "Martial Arts: judo, karate, kickbox",
+	   "a": "300",
+	   "b": "372",
+	   "c": "444"
+	 },
+	 {
+	   "Description": "Racquetball: competitive",
+	   "a": "300",
+	   "b": "372",
+	   "c": "444"
+	 },
+	 {
+	   "Description": "Rope Jumping",
+	   "a": "300",
+	   "b": "372",
+	   "c": "444"
+	 },
+	 {
+	   "Description": "Running: 6 mph (10 min/mile)",
+	   "a": "300",
+	   "b": "372",
+	   "c": "444"
+	 },
+	 {
+	   "Description": "Swimming: breaststroke",
+	   "a": "300",
+	   "b": "372",
+	   "c": "444"
+	 },
+	 {
+	   "Description": "Swimming: laps, vigorous",
+	   "a": "300",
+	   "b": "372",
+	   "c": "444"
+	 },
+	 {
+	   "Description": "Swimming: treading, vigorous",
+	   "a": "300",
+	   "b": "372",
+	   "c": "444"
+	 },
+	 {
+	   "Description": "Water Polo",
+	   "a": "300",
+	   "b": "372",
+	   "c": "444"
+	 },
+	 {
+	   "Description": "Rock Climbing: ascending",
+	   "a": "330",
+	   "b": "409",
+	   "c": "488"
+	 },
+	 {
+	   "Description": "Running: 6.7 mph (9 min/mile)",
+	   "a": "330",
+	   "b": "409",
+	   "c": "488"
+	 },
+	 {
+	   "Description": "Swimming: butterfly",
+	   "a": "330",
+	   "b": "409",
+	   "c": "488"
+	 },
+	 {
+	   "Description": "Swimming: crawl",
+	   "a": "330",
+	   "b": "409",
+	   "c": "488"
+	 },
+	 {
+	   "Description": "Bicycling: 16-19 mph",
+	   "a": "360",
+	   "b": "446",
+	   "c": "533"
+	 },
+	 {
+	   "Description": "Handball: general",
+	   "a": "360",
+	   "b": "446",
+	   "c": "533"
+	 },
+	 {
+	   "Description": "Running: 7.5 mph (8 min/mile)",
+	   "a": "375",
+	   "b": "465",
+	   "c": "555"
+	 },
+	 {
+	   "Description": "Running: 8.6 mph (7 min/mile)",
+	   "a": "435",
+	   "b": "539",
+	   "c": "644"
+	 },
+	 {
+	   "Description": "Bicycling: > 20 mph",
+	   "a": "495",
+	   "b": "614",
+	   "c": "733"
+	 },
+	 {
+	   "Description": "Running: 10 mph (6 min/mile)",
+	   "a": "495",
+	   "b": "614",
+	   "c": "733"
+	 },
+	 {
+	   "Description": "",
+	   "a": "",
+	   "b": "",
+	   "c": ""
+	 },
+	 {
+	   "Description": "Outdoor Activities",
+	   "a": "",
+	   "b": "",
+	   "c": ""
+	 },
+	 {
+	   "Description": "Planting seedlings, shrubs",
+	   "a": "120",
+	   "b": "149",
+	   "c": "178"
+	 },
+	 {
+	   "Description": "Raking Lawn",
+	   "a": "120",
+	   "b": "149",
+	   "c": "178"
+	 },
+	 {
+	   "Description": "Sacking grass or leaves",
+	   "a": "120",
+	   "b": "149",
+	   "c": "178"
+	 },
+	 {
+	   "Description": "Gardening: general",
+	   "a": "135",
+	   "b": "167",
+	   "c": "200"
+	 },
+	 {
+	   "Description": "Mowing Lawn: push, power",
+	   "a": "135",
+	   "b": "167",
+	   "c": "200"
+	 },
+	 {
+	   "Description": "Operate Snow Blower: walking",
+	   "a": "135",
+	   "b": "167",
+	   "c": "200"
+	 },
+	 {
+	   "Description": "Plant trees",
+	   "a": "135",
+	   "b": "167",
+	   "c": "200"
+	 },
+	 {
+	   "Description": "Gardening: weeding",
+	   "a": "139",
+	   "b": "172",
+	   "c": "205"
+	 },
+	 {
+	   "Description": "Carrying & stacking wood",
+	   "a": "150",
+	   "b": "186",
+	   "c": "222"
+	 },
+	 {
+	   "Description": "Digging, spading dirt",
+	   "a": "150",
+	   "b": "186",
+	   "c": "222"
+	 },
+	 {
+	   "Description": "Laying sod / crushed rock",
+	   "a": "150",
+	   "b": "186",
+	   "c": "222"
+	 },
+	 {
+	   "Description": "Mowing Lawn: push, hand",
+	   "a": "165",
+	   "b": "205",
+	   "c": "244"
+	 },
+	 {
+	   "Description": "Chopping & splitting wood",
+	   "a": "180",
+	   "b": "223",
+	   "c": "266"
+	 },
+	 {
+	   "Description": "Shoveling Snow: by hand",
+	   "a": "180",
+	   "b": "223",
+	   "c": "266"
+	 },
+	 {
+	   "Description": "",
+	   "a": "",
+	   "b": "",
+	   "c": ""
+	 },
+	 {
+	   "Description": "Home & Daily Life Activities",
+	   "a": "",
+	   "b": "",
+	   "c": ""
+	 },
+	 {
+	   "Description": "Sleeping",
+	   "a": "19",
+	   "b": "23",
+	   "c": "28"
+	 },
+	 {
+	   "Description": "Watching TV",
+	   "a": "23",
+	   "b": "28",
+	   "c": "33"
+	 },
+	 {
+	   "Description": "Reading: sitting",
+	   "a": "34",
+	   "b": "42",
+	   "c": "50"
+	 },
+	 {
+	   "Description": "Standing in line",
+	   "a": "38",
+	   "b": "47",
+	   "c": "56"
+	 },
+	 {
+	   "Description": "Cooking",
+	   "a": "75",
+	   "b": "93",
+	   "c": "111"
+	 },
+	 {
+	   "Description": "Child-care: bathing, feeding, etc.",
+	   "a": "105",
+	   "b": "130",
+	   "c": "155"
+	 },
+	 {
+	   "Description": "Food Shopping: with cart",
+	   "a": "105",
+	   "b": "130",
+	   "c": "155"
+	 },
+	 {
+	   "Description": "Moving: unpacking",
+	   "a": "105",
+	   "b": "130",
+	   "c": "155"
+	 },
+	 {
+	   "Description": "Playing w/kids: moderate effort",
+	   "a": "120",
+	   "b": "149",
+	   "c": "178"
+	 },
+	 {
+	   "Description": "Heavy Cleaning: wash car, windows",
+	   "a": "135",
+	   "b": "167",
+	   "c": "200"
+	 },
+	 {
+	   "Description": "Child games: hop-scotch, jacks, etc.",
+	   "a": "150",
+	   "b": "186",
+	   "c": "222"
+	 },
+	 {
+	   "Description": "Playing w/kids: vigorous effort",
+	   "a": "150",
+	   "b": "186",
+	   "c": "222"
+	 },
+	 {
+	   "Description": "Moving: household furniture",
+	   "a": "180",
+	   "b": "223",
+	   "c": "266"
+	 },
+	 {
+	   "Description": "Moving: carrying boxes",
+	   "a": "210",
+	   "b": "260",
+	   "c": "311"
+	 },
+	 {
+	   "Description": "",
+	   "a": "",
+	   "b": "",
+	   "c": ""
+	 },
+	 {
+	   "Description": "Home Repair",
+	   "a": "",
+	   "b": "",
+	   "c": ""
+	 },
+	 {
+	   "Description": "Auto Repair",
+	   "a": "90",
+	   "b": "112",
+	   "c": "133"
+	 },
+	 {
+	   "Description": "Wiring and Plumbing",
+	   "a": "90",
+	   "b": "112",
+	   "c": "133"
+	 },
+	 {
+	   "Description": "Carpentry: refinish furniture",
+	   "a": "135",
+	   "b": "167",
+	   "c": "200"
+	 },
+	 {
+	   "Description": "Lay or remove carpet/tile",
+	   "a": "135",
+	   "b": "167",
+	   "c": "200"
+	 },
+	 {
+	   "Description": "Paint, paper, remodel: inside",
+	   "a": "135",
+	   "b": "167",
+	   "c": "200"
+	 },
+	 {
+	   "Description": "Cleaning rain gutters",
+	   "a": "150",
+	   "b": "186",
+	   "c": "222"
+	 },
+	 {
+	   "Description": "Hanging storm windows",
+	   "a": "150",
+	   "b": "186",
+	   "c": "222"
+	 },
+	 {
+	   "Description": "Paint house: outside",
+	   "a": "150",
+	   "b": "186",
+	   "c": "222"
+	 },
+	 {
+	   "Description": "Carpentry: outside",
+	   "a": "180",
+	   "b": "223",
+	   "c": "266"
+	 },
+	 {
+	   "Description": "Roofing",
+	   "a": "180",
+	   "b": "223",
+	   "c": "266"
+	 },
+	 {
+	   "Description": "",
+	   "a": "",
+	   "b": "",
+	   "c": ""
+	 },
+	 {
+	   "Description": "Occupational Activities",
+	   "a": "",
+	   "b": "",
+	   "c": ""
+	 },
+	 {
+	   "Description": "Computer Work",
+	   "a": "41",
+	   "b": "51",
+	   "c": "61"
+	 },
+	 {
+	   "Description": "Light Office Work",
+	   "a": "45",
+	   "b": "56",
+	   "c": "67"
+	 },
+	 {
+	   "Description": "Sitting in Meetings",
+	   "a": "49",
+	   "b": "60",
+	   "c": "72"
+	 },
+	 {
+	   "Description": "Desk Work",
+	   "a": "53",
+	   "b": "65",
+	   "c": "78"
+	 },
+	 {
+	   "Description": "Sitting in Class",
+	   "a": "53",
+	   "b": "65",
+	   "c": "78"
+	 },
+	 {
+	   "Description": "Truck Driving: sitting",
+	   "a": "60",
+	   "b": "74",
+	   "c": "89"
+	 },
+	 {
+	   "Description": "Bartending/Server",
+	   "a": "75",
+	   "b": "93",
+	   "c": "111"
+	 },
+	 {
+	   "Description": "Heavy Equip. Operator",
+	   "a": "75",
+	   "b": "93",
+	   "c": "111"
+	 },
+	 {
+	   "Description": "Police Officer",
+	   "a": "75",
+	   "b": "93",
+	   "c": "111"
+	 },
+	 {
+	   "Description": "Theater Work",
+	   "a": "90",
+	   "b": "112",
+	   "c": "133"
+	 },
+	 {
+	   "Description": "Welding",
+	   "a": "90",
+	   "b": "112",
+	   "c": "133"
+	 },
+	 {
+	   "Description": "Carpentry Work",
+	   "a": "105",
+	   "b": "130",
+	   "c": "155"
+	 },
+	 {
+	   "Description": "Coaching Sports",
+	   "a": "120",
+	   "b": "149",
+	   "c": "178"
+	 },
+	 {
+	   "Description": "Masseur, standing",
+	   "a": "120",
+	   "b": "149",
+	   "c": "178"
+	 },
+	 {
+	   "Description": "Construction, general",
+	   "a": "165",
+	   "b": "205",
+	   "c": "244"
+	 },
+	 {
+	   "Description": "Coal Mining",
+	   "a": "180",
+	   "b": "223",
+	   "c": "266"
+	 },
+	 {
+	   "Description": "Horse Grooming",
+	   "a": "180",
+	   "b": "223",
+	   "c": "266"
+	 },
+	 {
+	   "Description": "Masonry",
+	   "a": "210",
+	   "b": "260",
+	   "c": "311"
+	 },
+	 {
+	   "Description": "Forestry, general",
+	   "a": "240",
+	   "b": "298",
+	   "c": "355"
+	 },
+	 {
+	   "Description": "Heavy Tools, not power",
+	   "a": "240",
+	   "b": "298",
+	   "c": "355"
+	 },
+	 {
+	   "Description": "Steel Mill: general",
+	   "a": "240",
+	   "b": "298",
+	   "c": "355"
+	 },
+	 {
+	   "Description": "Firefighting",
+	   "a": "360",
+	   "b": "446",
+	   "c": "533"
+	 }
+	]
+}

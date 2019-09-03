@@ -1,0 +1,469 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentBottom="true"
+    android:id="@+id/journal"
+    tools:context="com.example.akash.fooddiary.FragmentJournal">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp"
+        android:layout_above="@+id/floatingbtn">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:textSize="25sp"
+                android:textColor="@color/ripplebtn2"/>
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time"
+                android:textSize="25sp"
+                android:textColor="@color/ripplebtn2"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/Age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/date"
+                android:textStyle="bold"
+                android:text="Age"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/cardview_dark_background"/>
+            <TextView
+                android:id="@+id/Ageval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/Age"
+                android:layout_alignBottom="@id/Age"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/Text_color_2"
+                android:text="Age" />
+            <TextView
+                android:id="@+id/Weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weight"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_alignBaseline="@+id/height"
+                android:layout_alignBottom="@+id/height"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:id="@+id/Weightval"
+                android:layout_width="wrap_content"
+                android:textColor="@color/Text_color_2"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/Weight"
+                android:layout_alignBottom="@id/Weight"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:text="Weightval" />
+            <TextView
+                android:id="@+id/genderval"
+                android:layout_width="wrap_content"
+                android:textColor="@color/Text_color_2"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/time"
+                android:layout_marginTop="5dp"
+                android:layout_alignParentRight="true"
+                android:text="Genderval"
+                />
+            <TextView
+                android:id="@+id/gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Gender"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_alignBaseline="@+id/genderval"
+                android:layout_alignBottom="@+id/genderval"
+                android:layout_toRightOf="@+id/BMRrate"
+                android:layout_toEndOf="@+id/BMRrate" />
+
+            <TextView
+                android:id="@+id/heightval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/gender"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/Text_color_2"
+                android:layout_alignParentRight="true"
+                android:text="Genderval" />
+            <TextView
+                android:id="@+id/height"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Height"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_alignBaseline="@+id/heightval"
+                android:layout_alignBottom="@+id/heightval"
+                android:layout_alignLeft="@+id/gender"
+                android:layout_alignStart="@+id/gender" />
+
+            <TextView
+                android:id="@+id/Analytics"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Analytics:"
+                android:textColor="@color/ripplebtn2"
+                android:layout_below="@+id/Weight"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/BMI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Analytics"
+                android:layout_alignParentLeft="true"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_marginTop="5dp"
+                android:text="BMI(Body Mass Index):" />
+            <TextView
+                android:id="@+id/BMIval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/Text_color_2"
+                android:layout_alignBottom="@id/BMI"
+                android:layout_alignParentRight="true"
+                android:text="BMI"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/BMIcomment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/BMI"
+                android:layout_alignParentRight="true"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="Comment" />
+            <TextView
+                android:id="@+id/BMIrange"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/BMIcomment"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:text="Normal BMI Weight Range:" />
+            <TextView
+                android:id="@+id/BMIrangeval"
+                android:textColor="@color/Text_color_2"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/BMIrange"
+                android:text="BMI range"
+                android:gravity="center"
+                android:layout_alignParentRight="true"/>
+
+            <TextView
+                android:id="@+id/BodyFatper"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/BMIrange"
+                android:layout_alignParentLeft="true"
+                android:textStyle="bold"
+                android:text="Body Fat Percentage:" />
+            <TextView
+                android:id="@+id/BodyFatperval"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/Text_color_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignBottom="@id/BodyFatper"
+                android:text="percent%"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/BodyFatpercomm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/BodyFatper"
+                android:layout_alignParentRight="true"
+                android:textStyle="bold"
+                android:text="Comment" />
+
+            <TextView
+                android:id="@+id/Leanmass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/BodyFatpercomm"
+                android:layout_alignParentLeft="true"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_marginTop="5dp"
+
+                android:text="Lean Mass:" />
+            <TextView
+                android:id="@+id/Leanmassval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/Text_color_2"
+                android:layout_toRightOf="@id/Leanmass"
+                android:layout_alignBottom="@id/Leanmass"
+                android:text="value"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/Fatmassval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/BodyFatpercomm"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/Text_color_2"
+                android:text="value" />
+            <TextView
+                android:id="@+id/Fatmass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/gender"
+                android:layout_alignBottom="@id/Fatmassval"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_marginTop="5dp"
+                android:text="Fat Mass:" />
+
+            <TextView
+                android:id="@+id/BMRrate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Leanmass"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/cardview_dark_background"
+                android:text="BMR(Basal Metabolic Rate):"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/BMRrateval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/BMRrate"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:textColor="@color/Text_color_2"
+                android:layout_marginTop="5dp"
+                android:text="value" />
+            <TextView
+                android:id="@+id/CalorieIntake"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/BMRrate"
+                android:layout_alignParentLeft="true"
+                android:text="Calorie Intake:"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/CalorieIntakeval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/Text_color_2"
+                android:layout_alignBottom="@id/CalorieIntake"
+                android:text="value"
+                android:layout_marginTop="5dp"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:id="@+id/Idealweight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/CalorieIntake"
+                android:layout_alignParentLeft="true"
+                android:text="Ideal weight:"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_dark_background"/>
+            <TextView
+                android:id="@+id/Idealweightval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/Idealweight"
+                android:text="value"
+                android:textColor="@color/Text_color_2"
+                android:layout_marginTop="5dp"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:id="@+id/Result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Idealweight"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Result:"
+                android:textColor="@color/ripplebtn2"/>
+
+            <TextView
+                android:id="@+id/tomaintain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Result"
+                android:layout_alignParentLeft="true"
+                android:text="To Maintain Your Weight You Need"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/cardview_dark_background"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/tomaintainval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/tomaintain"
+                android:text="value"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/Text_color_2"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:id="@+id/halfloss"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tomaintain"
+                android:layout_alignParentLeft="true"
+                android:text="To Loss 0.5kg Per Week You Need:"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/halflossval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/halfloss"
+                android:text="value"
+                android:layout_marginTop="5dp"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/Text_color_2"/>
+
+            <TextView
+                android:id="@+id/oneloss"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_below="@+id/halfloss"
+                android:layout_alignParentLeft="true"
+                android:text="To Loss 1kg Per Week You Need:"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/onelossval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/oneloss"
+                android:text="value"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/Text_color_2"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:id="@+id/halfgain"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/oneloss"
+                android:layout_alignParentLeft="true"
+                android:text="To Gain 0.5kg Per Week You Need:"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/halfgainval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/Text_color_2"
+                android:layout_alignBottom="@id/halfgain"
+                android:text="value"
+                android:layout_marginTop="5dp"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:id="@+id/onegain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/halfgain"
+                android:layout_alignParentLeft="true"
+                android:textColor="@color/cardview_dark_background"
+                android:text="To Gain 1kg Per Week You Need:"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/onegainval"
+                android:textColor="@color/Text_color_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/onegain"
+                android:text="value"
+                android:layout_marginTop="5dp"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </ScrollView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:padding="10dp"
+        android:id="@+id/floatingbtn"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_marginRight="30dp"
+        android:drawableLeft="@drawable/ic_whatshot_black_24dp"
+        android:drawablePadding="5dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/floatingbutton"
+        android:text="Analyze" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:padding="10dp"
+        android:id="@+id/historybtn"
+        android:textColor="#fff"
+        android:layout_marginLeft="30dp"
+        android:gravity="center"
+        android:drawableLeft="@drawable/ic_whatshot_black_24dp"
+        android:drawablePadding="5dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/floatingbutton"
+        android:text="History" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Body Analyzer</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="BMR_calculator">BMR Calculator</string>
+    <string name="Ok">Ok</string>
+
+    <array name="Exercise_details">
+        <item>Very Little</item>
+        <item>1–3 days per week</item>
+        <item>3–5 days per week</item>
+        <item>6–7 days per week</item>
+        <item>twice per day, extra heavy workouts</item>
+    </array>
+</resources>

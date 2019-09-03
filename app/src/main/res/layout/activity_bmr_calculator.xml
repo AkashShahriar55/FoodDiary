@@ -1,0 +1,229 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/bmrcalculator"
+    tools:context="com.example.akash.fooddiary.FragmentTools">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/BMRicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/batticon" />
+    <TextView
+        android:id="@+id/BMR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/BMRicon"
+        android:text="@string/BMR_calculator"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#5b4f6d" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/BMRscrollview"
+        android:layout_below="@+id/BMR"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender:"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/Text_color_1"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/radiogrp_bmr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/gender"
+                android:layout_centerHorizontal="true">
+                <RadioButton
+                    android:id="@+id/radiobtn_male"
+                    style="@style/Widget.AppCompat.CompoundButton.RadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Male"
+                    android:textColor="@color/colorPrimary"
+                    android:buttonTint="@color/colorPrimary"
+                    android:checked="true"/>
+                <RadioButton
+                    android:id="@+id/radiobtn_female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Female"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/colorAccent"
+                    android:buttonTint="@color/colorAccent"/>
+            </RadioGroup>
+            <TextView
+                android:id="@+id/Exercise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/radiogrp_bmr"
+                android:text="I Exercise:"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/Text_color_1"
+                android:layout_alignLeft="@+id/editTextExercise"
+                android:layout_alignStart="@+id/editTextExercise" />
+            <EditText
+                android:layout_width="320dp"
+                android:layout_height="35dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/Exercise"
+                android:background="@drawable/ovaledittext"
+                android:id="@+id/editTextExercise"
+                android:paddingLeft="15dp"
+                android:hint="Very Little"
+                android:onClick="showdialog"
+                android:cursorVisible="false"
+                android:editable="false"/>
+            <TextView
+                android:id="@+id/text_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Age:"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/editTextExercise"
+                android:textColor="@color/Text_color_1"
+                android:layout_alignLeft="@+id/editText_age"
+                android:layout_alignStart="@+id/editText_age" />
+            <EditText
+                android:layout_width="320dp"
+                android:layout_height="35dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/text_age"
+                android:background="@drawable/ovaledittext"
+                android:id="@+id/editText_age"
+                android:hint="Your Age In Years"
+                android:paddingLeft="15dp"
+                android:inputType="number" />
+            <TextView
+                android:id="@+id/text_weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weight:"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/Text_color_1"
+                android:layout_below="@+id/editText_age"
+                android:layout_alignLeft="@+id/editText_weight"
+                android:layout_alignStart="@+id/editText_weight" />
+            <EditText
+                android:layout_width="320dp"
+                android:layout_height="35dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/text_weight"
+                android:background="@drawable/ovaledittext"
+                android:id="@+id/editText_weight"
+                android:paddingLeft="15dp"
+                android:hint="Kilograms"
+                android:inputType="number" />
+            <TextView
+                android:id="@+id/text_height"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Height:"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/Text_color_1"
+                android:layout_below="@+id/editText_weight"
+                android:layout_alignLeft="@+id/editText_heightft"
+                android:layout_alignStart="@+id/editText_heightft" />
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@id/editText_weight"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/text_height"
+                android:background="@drawable/ovaledittext"
+                android:id="@+id/editText_heightft"
+                android:paddingLeft="15dp"
+                android:hint="Feet"
+                android:inputType="number"
+                android:maxLength="1"/>
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:layout_alignRight="@id/editText_weight"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/text_height"
+                android:background="@drawable/ovaledittext"
+                android:id="@+id/editText_heightin"
+                android:paddingLeft="15dp"
+                android:hint="Inches"
+                android:maxLength="2"
+                android:inputType="number"/>
+            <TextView
+                android:id="@+id/text_Body_Fat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editText_heightft"
+                android:text="Body Fat"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/Text_color_1"
+                android:layout_alignLeft="@+id/editText_bodyfat"
+                android:layout_alignStart="@+id/editText_bodyfat" />
+            <EditText
+                android:layout_width="320dp"
+                android:layout_height="35dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/text_Body_Fat"
+                android:background="@drawable/ovaledittext"
+                android:id="@+id/editText_bodyfat"
+                android:paddingLeft="15dp"
+                android:hint="Your Body Fat is %"
+                android:textColorHint="@color/Hint"
+                android:inputType="numberDecimal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I Don't Know My Fat Percentage!"
+                android:layout_below="@id/editText_bodyfat"
+                android:layout_alignRight="@id/editText_bodyfat"
+                android:id="@+id/text_nobodyfat"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:textSize="12dp"
+                android:textColor="@color/colorAccent"
+                android:clickable="true"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Calculate The Calories"
+                android:background="@drawable/ovalbutton"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/text_nobodyfat"
+
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/btnbmr"
+                android:textColor="#fff"
+                android:textAllCaps="false"/>
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

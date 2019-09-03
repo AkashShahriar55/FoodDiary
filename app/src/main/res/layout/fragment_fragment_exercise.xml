@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.akash.fooddiary.FragmentExercise">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/Description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textSize="13sp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:textColor="#4a2404"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/a"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="57kg Person"
+            android:textSize="13sp"
+            android:textColor="#d9163d"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/b"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="70kg Person"
+            android:layout_alignParentRight="true"
+            android:textSize="13sp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:textColor="#e9710e"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/c"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="84kg person"
+            android:layout_alignParentRight="true"
+            android:textSize="13sp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:textColor="#0f3eb5"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+    <ProgressBar
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/progressbarexr"/>
+    <ListView
+        android:id="@+id/listexr"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:smoothScrollbar="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>

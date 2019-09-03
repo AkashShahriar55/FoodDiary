@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="Text_color_1">#612dd3</color>
+    <color name="buuton_color_1">#d15e20</color>
+    <color name="Hint">#8a8a8a</color>
+    <color name="Text_color_2">#642faf</color>
+    <color name="btnpressed">#5e5c5c</color>
+    <color name="btnnotpressed">#f4b42b</color>
+    <color name="ripplebtn2">#8bca3a</color>
+
+
+    <color name="Green">#36ba09</color>
+    <color name="yellowGreen">#97c328</color>
+    <color name="Yellow">#dfdf0a</color>
+    <color name="YelloOrange">#d9941c</color>
+    <color name="Orange">#e86513</color>
+    <color name="OrangeREd">#c73a0f</color>
+    <color name="Red">#de1511</color>
+</resources>
